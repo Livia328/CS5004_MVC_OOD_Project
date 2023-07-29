@@ -41,7 +41,7 @@ Locate the file, cd res folder.
 
 (NOTES:  It is normal to encounter font-related errors due to font installation issues. Just ignore this.)
 
-![example to run code in Command Line](asserts/WechatIMG2433.png)
+![example to run code in Command Line](res/asserts/WechatIMG2433.png)
 
 ## How to Use the Program
 ### Start the Program & Main Page
@@ -53,7 +53,7 @@ the necessary information.
 
 Main Page:
 
-![Main Page](asserts/WechatIMG2434.png)
+![Main Page](res/asserts/WechatIMG2434.png)
 
 ### Add Monkey Button
 Click `Add Monkey` Button in the Main Page, you will be guided to the Add Monkey Page.
