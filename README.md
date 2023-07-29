@@ -80,20 +80,20 @@ After entering all the information, click the Submit button,
 the system will generate a new monkey based on user information.
 The new Monkey will be hosted in the Isolation area, and be marked t as not having received medical attention.
 
-![Add Monkey Page](asserts/WechatIMG2435.png)
+![Add Monkey Page](res/asserts/WechatIMG2435.png)
 
 If Successfully added, you can see the following message:
 
-![Success Message](asserts/WechatIMG2436.png)
+![Success Message](res/asserts/WechatIMG2436.png)
 
 If the input type is different from the type expected by the program, 
 an error message will be displayed to you.
 
-![Error Message1](asserts/WechatIMG2437.png)
+![Error Message1](res/asserts/WechatIMG2437.png)
 
 As the Isolation Area has the maxium capacity of 20, if the Isolation area is full, you will see the following messase.
 
-![Error Message2](asserts/WechatIMG2438.png)
+![Error Message2](res/asserts/WechatIMG2438.png)
 
 ### Vaccinate Monkey Button
 Click `Vaccinate Monkey` Button in the Main Page, you will be guided to the Vaccinate Page.
@@ -103,19 +103,19 @@ You can submit the ID and the corresponding monkey will be vaccinated.
 The attributes its expect form are listed as following:
 - ID: int
 
-![Vaccinate Page](asserts/WechatIMG2439.png)
+![Vaccinate Page](res/asserts/WechatIMG2439.png)
 
 If Successfully vaccinated, you can see the following message:
 
-![VP success message1](asserts/WechatIMG2440.png)
+![VP success message1](res/asserts/WechatIMG2440.png)
 
 If the Monkey ID you entered has already been vaccinated, you can see the following error message:
 
-![Error Message 1](asserts/WechatIMG2441.png)
+![Error Message 1](res/asserts/WechatIMG2441.png)
 
 If the Monkey ID you entered does not exist, you can see the following error message:
 
-![Error Message2](asserts/WechatIMG2442.png)
+![Error Message2](res/asserts/WechatIMG2442.png)
 
 ### Move Monkey to Enclosure Button
 Click `Movee Monkey to Enclosure` Button in the Main Page, you will be guided to the Move Monkey Page.
@@ -125,23 +125,23 @@ You can submit the ID and the corresponding monkey will be moved to correspondin
 The attributes its expect form are listed as following:
 - ID: int
 
-![Move Monkey Page](asserts/WechatIMG2443.png)
+![Move Monkey Page](res/asserts/WechatIMG2443.png)
 
 If successfully moved, you can see the following message:
 
-![VP success message1](asserts/WechatIMG2444.png)
+![VP success message1](res/asserts/WechatIMG2444.png)
 
 If the Monkey has not been vaccinated, you can see the following error message:
 
-![VP success message1](asserts/WechatIMG2450.png)
+![VP success message1](res/asserts/WechatIMG2450.png)
 
 If the Monkey ID you entered has already been moved, you can see the following error message:
 
-![Error Message 1](asserts/WechatIMG2445.png)
+![Error Message 1](res/asserts/WechatIMG2445.png)
 
 If the Monkey ID you entered does not exist, you can see the following error message:
 
-![Error Message2](asserts/WechatIMG2446.png)
+![Error Message2](res/asserts/WechatIMG2446.png)
 
 ### Get List For every enclosure Button
 Click `Get List For every enclosure Button` Button in the Main Page, you will be guided to the Get list Page.
@@ -151,27 +151,27 @@ You can submit the species and the corresponding enclosure list will be shown vi
 The attributes its expect form are listed as following:
 - Species: Check Box
 
-![Get List Page](asserts/WechatIMG2447.png)
+![Get List Page](res/asserts/WechatIMG2447.png)
 
 If successfully, you can see the following message, for each monkey, including their name, sex, and favourite food.
 
-![VP success message1](asserts/WechatIMG2448.png)
+![VP success message1](res/asserts/WechatIMG2448.png)
 
 If the enclosure is empty, you can see the following message:
 
-![VP success message1](asserts/WechatIMG2449.png)
+![VP success message1](res/asserts/WechatIMG2449.png)
 
 ### Get all monkeys housed in the Sanctuary Button
 Click `Get all monkeys housed in the Sanctuary` Button in the Main Page,
 an alphabetical list (by name) of all of the monkeys housed in the Sanctuary will be shown via dialog.
 
-![VP success message1](asserts/WechatIMG2451.png)
+![VP success message1](res/asserts/WechatIMG2451.png)
 
 ## Design/Model Changes
 
 UML of this Project:
 
-![VP success message1](asserts/WechatIMG2453.png)
+![VP success message1](res/asserts/WechatIMG2453.png)
 
 ## Assumptions
 In this Project, I assume the ID of each monkey is unique.
